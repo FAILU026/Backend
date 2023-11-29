@@ -7,7 +7,7 @@ const app = expres()
 app.use(expres.json());
 app.use(cors(
     {
-        origin: ["http://localhost:3000"],
+        origin: ["https://survey-form-failu026.vercel.app"],
         methods: ["POST", "GET"],
         credentials: true
       }
